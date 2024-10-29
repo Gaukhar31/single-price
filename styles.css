@@ -1,0 +1,119 @@
+/* styles.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 700px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .community {
+    grid-column: span 2;
+    background-color: hsl(180, 3%, 94%);
+    color:hsl(218, 22%, 67%);
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .community h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .community h4 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: hsl(71, 73%, 54%);
+  }
+  
+  .community p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .informations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .subscription, .why {
+    padding: 40px;
+  }
+  
+  .subscription {
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .subscription h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .subscription h3 {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+  
+  .subscription span {
+    font-size: 16px;
+    color: hsl(204, 43%, 93%);
+  }
+  
+  .subscription p {
+    font-size: 14px;
+    margin: 10px 0 20px;
+  }
+  
+  .subscription button {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    cursor: pointer;
+  }
+  
+  .why {
+    background-color: hsl(204, 43%, 93%);
+    color: hsl(218, 22%, 67%);
+  }
+  
+  .why h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .paragraphs p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
